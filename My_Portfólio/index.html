@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DevNuno Portfolio Website</title>
+        <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+        integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q"
+        crossorigin="anonymous"
+      />
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Nuno Pacheco</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+            <img src="img/2016.09.16 Deloitte Studio_126.jpg" alt="a picture of Nuno thinking about life" class="intro__img">
+        </section>
+
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Design</h3>
+                    <p>One of my favourite challenges is to think about the <strong>Look & Feel</strong> of the solutions I will develop. And also about the <strong>User interaction</strong> with the App.</p>
+                </div>
+
+                <div class="service">
+                    <h3>Frontend</h3>
+                    <p>I love to make my layouts <strong>Responsive</strong> to work on any device, big or small. I also like to make it <strong>Intuitive</strong> and easy to use. And everytime it's possible I will do it <strong>Dynamic</strong> because websites don't have to be static.</p>
+                </div>
+
+                <div class="service">
+                    <h3>Backend</h3>
+                    <p><strong>Data</strong> is not everything, but everything it´s data. Develop "web solutions" than can display relevant data to maximize the <strong>user experience</strong> it's also a <strong>passion</strong>.</p>
+                </div>
+            </div>
+
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Frontend Developer based on Lisbon</p>
+
+            <div class="about-me__body">
+                <p>Human Behavior Expert turned Full Stack Developer. When the pandemic came i take the decision of my life, and embraced the new normal, that's why I changed my career, and now I'm ready to beat the edge. Resourceful, creative and enthusiastic: always find a way to achieve the goal.
+                </p>
+                <p><strong>What would I bring to your company?</strong></br>
+                    . Enthusiasm, empathy and creativity.</br>
+                    . High learning capacity and rapid adaptation to change.</br>
+                    . Experience in managing multinational/multicultural and multidisciplinary teams, interpersonal skills, ability to analyze complex problems, prioritization, and task management.</p>
+            </div>
+
+            <img src="img/IMG_4710.jpg" alt="a picture of Nuno thinking about life" class="about-me__img">
+        </section>
+    </br>
+        <section class="my-skills" id="skills">
+            <h2 class="section_title section__title--skill">My skills</h2>
+            <p class="section__subtitle section__subtitle--skill">Some of my Skills</p>
+            <ul class="skill-list">
+                <li class="skill-list__item">
+                    <a class="skill-list__link">
+                        <i class="fab fa-react skill-list__icon"></i>
+                        <p>ReactJS</p>
+                    </a>
+                </li>
+                <li class="skill-list__item">
+                    <a class="skill-list__link">
+                        <i class="fab fa-js"></i>
+                        <p>JavaScript</p>
+                    </a>
+                </li>
+                <li class="skill-list__item">
+                    <a class="skill-list__link">
+                        <i class="fab fa-html5"></i>
+                        <p>HTML5</p>
+                    </a>
+                </li>
+                <li class="skill-list__item">
+                    <a class="skill-list__link">
+                        <i class="fab fa-css3-alt"></i>
+                        <p>CSS</p>
+                    </a>
+                </li>
+                <li class="skill-list__item">
+                    <a class="skill-list__link">
+                        <i class="fab fa-bootstrap"></i>
+                        <p>Bootstrap</p>
+                    </a>
+                </li>
+                <li class="skill-list__item">
+                    <a class="skill-list__link">
+                        <i class="fab fa-node"></i>
+                        <p>NodeJS</p>
+                    </a>
+                </li>
+                <li class="skill-list__item">
+                    <a class="skill-list__link">
+                        <i class="fas fa-database"></i>
+                        <p>MongoDB</p>
+                    </a>
+                </li>
+                <li class="skill-list__item">
+                    <a class="skill-list__link">
+                        <i class="fab fa-git-square"></i>
+                        <p>GIT</p>
+                    </a>
+                </li>
+                <li class="skill-list__item">
+                    <a class="skill-list__link">
+                        <i class="fab fa-github"></i>
+                        <p>GITHUB</p>
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="my-work" id="work">
+            <h2 class="section_title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">Some of my Work</p>
+
+            <div class="portfolio">
+                <a href="portfolio-item-1.html" class="portfolio__item">
+                    <img src="img/Portfolio_item1.png" alt="">
+                </a>
+
+                <a href="portfolio-item-2.html" class="portfolio__item">
+                    <img src="img/Portfolio_item3.png" alt="">
+                </a>
+
+                <a href="portfolio-item-3.html" class="portfolio__item">
+                    <img src="img/Portfolio_item2.png" alt="">
+                </a>
+
+                <a href="portfolio-item-4.html" class="portfolio__item">
+                    <img src="img/Portfolio_item4.png" alt="">
+                </a>
+
+            </div>
+        </section>
+
+        <footer class="footer">
+            <a href="mailto:nunorpacheco@gmail.com" class="footer__link">nunorpacheco@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/nuno-pacheco">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.facebook.com/nuno.pacheco.5074">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/nunpacheco/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+
+
+    </body>
+</html>
