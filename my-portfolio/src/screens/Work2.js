@@ -6,13 +6,13 @@ function Work2() {
     return (
         <div>
         <Navbar/>
-            <div className="intro">
+            <section className="intro">
                 <h1 className="section__title section__title--intro">
                 The<strong>Unum   .</strong>
                 </h1>
                 <p className="section__subtitle section__subtitle--intro">A ExpressJs App</p>
-                <img src="img/Portfolio_item1.png" alt="" className="intro__img"/>
-            </div>
+                <img src="https://res.cloudinary.com/dylut4r4t/image/upload/v1611913718/portfolio/Portfolio_item3_pp8yfh.png" alt="" className="intro__img"/>
+            </section>
 
             <div className="portfolio-item-individual">
                 <p>An app that matches those who have lost their jobs due to Covid with those who would like to help by offering work.</p>

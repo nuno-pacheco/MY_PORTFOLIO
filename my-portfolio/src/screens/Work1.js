@@ -6,13 +6,13 @@ function Work1() {
     return (
         <div>
         <Navbar/>
-            <div className="intro">
+            <section className="intro">
                 <h1 className="section__title section__title--intro">
                     THE <strong>CURATOR</strong>
                 </h1>
                 <p className="section__subtitle section__subtitle--intro">A Native JS Game</p>
-                <img src="img/Portfolio_item1.png" alt="" className="intro__img"/>
-            </div>
+                <img src="https://res.cloudinary.com/dylut4r4t/image/upload/v1611913718/portfolio/Portfolio_item1_pb8rzu.png" alt="" className="intro__img"/>
+            </section>
 
             <div className="portfolio-item-individual">
                 <p>A game where you have to match at least 3 equal symbols to score. The symbols are inspired on actions that we have to take in a account in order to prevent the Coronavirus infetion. This game aims to be educational.</p>

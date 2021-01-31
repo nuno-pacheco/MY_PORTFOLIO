@@ -7,15 +7,15 @@ function HomeScreen() {
     return (
         <div>
          <Navbar/>
-        <div className="intro" id="home">
+        <section className="intro" id="home">
             <h1 className="section__title section__title--intro">
                 Hi, I am <strong>Nuno Pacheco</strong>
             </h1>
             <p className="section__subtitle section__subtitle--intro">front-end dev</p>
-            <img src="../images/img/2016.09.16 Deloitte Studio_126.jpg" alt="Nuno thinking about life" className="intro__img"/>
-        </div>
+            <img src="https://res.cloudinary.com/dylut4r4t/image/upload/v1611913718/portfolio/2016.09.16_Deloitte_Studio_126_e1x47s.jpg" alt="Nuno thinking about life" className="intro__img"/>
+        </section>
 
-        <div className="my-services" id="services">
+        <section className="my-services" id="services">
             <h2 className="section__title section__title--services">What I do</h2>
             <div className="services">
                 <div className="service">
@@ -23,7 +23,7 @@ function HomeScreen() {
                     <p>One of my favourite challenges is to think about the <strong>Look & Feel</strong> of the solutions I will develop. And also about the <strong>User interaction</strong> with the App.</p>
                 </div>
 
-                <div clasName="service">
+                <div className="service">
                     <h3>Frontend</h3>
                     <p>I love to make my layouts <strong>Responsive</strong> to work on any device, big or small. I also like to make it <strong>Intuitive</strong> and easy to use. And everytime it's possible I will do it <strong>Dynamic</strong> because websites don't have to be static.</p>
                 </div>
@@ -34,10 +34,10 @@ function HomeScreen() {
                 </div>
             </div>
 
-            <Link to="#work" className="btn">My Work</Link>
-        </div>
+            <Link href="#work" className="btn">My Work</Link>
+        </section>
 
-        <div className="about-me" id="about">
+        <section className="about-me" id="about">
             <h2 className="section__title section__title--about">Who I am</h2>
             <p className="section__subtitle section__subtitle--about">Frontend Developer based on Lisbon</p>
 
@@ -50,10 +50,10 @@ function HomeScreen() {
                     . Experience in managing multinational/multicultural and multidisciplinary teams, interpersonal skills, ability to analyze complex problems, prioritization, and task management.</p>
             </div>
 
-            <img src="img/IMG_4710.jpg" alt="Nuno thinking about life" className="about-me__img"/>
-        </div>
+            <img src="https://res.cloudinary.com/dylut4r4t/image/upload/v1611913718/portfolio/IMG_4710_psxxaj.jpg" alt="Nuno thinking about life" className="about-me__img"/>
+        </section>
   
-        <div className="my-skills" id="skills">
+        <section className="my-skills" id="skills">
             <h2 className="section_title section__title--skill">My skills</h2>
             <p className="section__subtitle section__subtitle--skill">Some of my Skills</p>
             <ul className="skill-list">
@@ -112,31 +112,31 @@ function HomeScreen() {
                     </div>
                 </li>
             </ul>
-        </div>
+        </section>
 
-        <div className="my-work" id="work">
+        <section className="my-work" id="work">
             <h2 className="section_title section__title--work">My work</h2>
             <p className="section__subtitle section__subtitle--work">Some of my Work</p>
 
             <div className="portfolio">
                 <Link to="/work1" className="portfolio__item">
-                    <img src="../images/img/Portfolio_item1.png" alt="Work_1"/>
+                    <img src="https://res.cloudinary.com/dylut4r4t/image/upload/v1611913718/portfolio/Portfolio_item1_pb8rzu.png" alt="Work_1"/>
                 </Link>
 
                 <Link to="/work2" className="portfolio__item">
-                    <img src="../images/img/Portfolio_item3.png" alt="Work_2"/>
+                    <img src="https://res.cloudinary.com/dylut4r4t/image/upload/v1611913718/portfolio/Portfolio_item3_pp8yfh.png" alt="Work_2"/>
                 </Link>
 
                 <Link to="/work3" className="portfolio__item">
-                    <img src="../images/img/Portfolio_item2.png" alt="Work_3"/>
+                    <img src="https://res.cloudinary.com/dylut4r4t/image/upload/v1611913718/portfolio/Portfolio_item2_iy6ut2.png" alt="Work_3"/>
                 </Link>
 
                 <Link to="/work4" className="portfolio__item">
-                    <img src="../images/img/Portfolio_item4.png" alt="Work_4"/>
+                    <img src="https://res.cloudinary.com/dylut4r4t/image/upload/v1611913718/portfolio/Portfolio_item4_islt3x.png" alt="Work_4"/>
                 </Link>
 
             </div>
-        </div>
+        </section>
         <Footer/>
         </div>
     )
