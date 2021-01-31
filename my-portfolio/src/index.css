@@ -13,7 +13,7 @@
 
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    --clr-accent: #ffc30b;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -140,7 +140,7 @@ header {
 .logo {
     max-width: 100px;
 }
-
+/*
 .nav{
     position: fixed;
     background: var(--clr-dark);
@@ -233,7 +233,7 @@ header {
 
 .hamburger::before {top: 6px; }
 .hamburger::after {bottom: 6px; }
-
+*/
 /* Intro Section */
 
 .intro {
@@ -247,6 +247,8 @@ header {
 .section__subtitle--intro{
     display: inline-block;
 }
+
+
 
 @media (min-width: 600px) {
     .intro {
@@ -490,3 +492,42 @@ header {
     max-width: 1000px;
     margin: 0 auto;
 }
+
+
+/*VideoCV Player*/
+.video-cv {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: -10vh;
+}
+
+@media (min-width: 600px) {
+    .section__title--videocv{
+        grid-column: 1 / -1;
+        grid-row: 2;
+        position: relative;
+        left: -1em;
+        width: calc(100% + 2em);
+        padding-left: 1em;
+        padding-right: calc(200px + 4em); 
+    }
+
+    .about-me__img {
+        grid-area: img;
+        position: relative;
+        z-index: 2;
+    }
+}
+
+
+.player-wrapper {
+    position: relative;
+    padding-top: 56.25%; /* 720 / 1280 = 0.5625 */
+
+  }
+  
+  .react-player {
+    position: absolute;
+    margin-top: 2vh;
+    top: 0;
+  }

@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import ReactPlayer from "react-player";
 
 function Work2() {
     return (
@@ -17,10 +18,7 @@ function Work2() {
             <div className="portfolio-item-individual">
                 <p>An app that matches those who have lost their jobs due to Covid with those who would like to help by offering work.</p>
                 <p>Many people have lost their jobs due to the crisis and our app aims to link up those who have lost jobs with those who can offer casual work opportunities. The app is fully responsive and designed to be used mainly on mobile phones. </p>
-                <video width="320" height="240" controls type="video/mp4">
-                    <source src="https://res.cloudinary.com/dylut4r4t/video/upload/v1611828139/samples/Gravac%CC%A7a%CC%83o_do_ecra%CC%83_2021-01-28_a%CC%80s_09.56.23_hc4pr9.mp4" type="video/mp4"/>
-                </video>
-                <h4>Technologies</h4>
+                <h4><strong>Technologies</strong></h4>
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>Bootstrap</li>
@@ -28,11 +26,23 @@ function Work2() {
                     <li>ExpressJS</li>
                     <li>NodeJS</li>
                     <li>MongoDB</li>
-                <h4>Main features</h4>
+                    <h4><strong>Main features</strong></h4>
                     <li>Create jobs </li>
                     <li>List of jobs</li>
                     <li>Accept a job</li>                
             </div>
+            <section className="video-cv" id="videocv">
+                <h2 className="section__title section__title--videocv">Video Demo</h2>
+                <div className='player-wrapper'>
+                    <ReactPlayer
+                    url="https://youtu.be/tJsvEc_3X2I"
+                    className='react-player'
+                    playing
+                    width='90%'
+                    height='90%'
+                    />
+                </div>
+            </section>
             <Footer/>
         </div>
     )
