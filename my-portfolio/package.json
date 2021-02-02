@@ -22,7 +22,6 @@
   "scripts": {
     "predeploy": "npm run build",
     "start": "react-scripts start",
-    "dev": "watch 'npm run build' src",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
