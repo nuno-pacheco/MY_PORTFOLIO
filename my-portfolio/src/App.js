@@ -13,9 +13,10 @@ import Work4 from './screens/Work4';
 function App() {
   return (
     <BrowserRouter>
-      <ScrollToTop>
+      
       <div>
       <Switch>
+      <ScrollToTop>
       <Route path="/" component={HomeScreen} exact></Route>
       <Route path="/aboutme" component={AboutMe} exact></Route>
       <Route path="/aboutmywork" component={AboutMyWork} exact></Route>
@@ -24,9 +25,9 @@ function App() {
       <Route path="/work3" component={Work3} exact></Route>
       <Route path="/work4" component={Work4} exact></Route>
       <Route path="/curriculum" component={Curriculum} exact></Route>
+      </ScrollToTop>
       </Switch>
       </div>
-      </ScrollToTop>
     </BrowserRouter>
 
   );
