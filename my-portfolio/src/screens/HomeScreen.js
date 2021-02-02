@@ -3,6 +3,18 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import {Link} from 'react-router-dom';
 import ReactPlayer from "react-player";
+import { Tooltip } from '@material-ui/core';
+import { withStyles } from '@material-ui/core/styles';
+
+const ProjectSkills = withStyles((theme) => ({
+  tooltip: {
+    backgroundColor: theme.palette.warning.light,
+    color: 'rgba(0, 0, 0, 0.87)',
+    boxShadow: theme.shadows[1],
+    fontSize: 12,
+    marginTop: -150,
+  },
+}))(Tooltip);
 
 function HomeScreen() {
     return (
@@ -59,7 +71,7 @@ function HomeScreen() {
                     <ReactPlayer
                     url="https://www.youtube.com/watch?v=EeJn5JY5h_s"
                     className='react-player'
-                    playing
+                    controls={true}
                     width='90%'
                     height='90%'
                     />
@@ -133,19 +145,35 @@ function HomeScreen() {
 
             <div className="portfolio">
                 <Link to="/work1" className="portfolio__item">
-                    <img src="https://res.cloudinary.com/dylut4r4t/image/upload/v1611913718/portfolio/Portfolio_item1_pb8rzu.png" alt="Work_1"/>
+                    <div>
+                    <ProjectSkills title="HTML, CSS, Javascript">
+                        <img src="https://res.cloudinary.com/dylut4r4t/image/upload/v1611913718/portfolio/Portfolio_item1_pb8rzu.png" alt="Work_1"/>
+                    </ProjectSkills>
+                    </div>
                 </Link>
 
                 <Link to="/work2" className="portfolio__item">
-                    <img src="https://res.cloudinary.com/dylut4r4t/image/upload/v1611913718/portfolio/Portfolio_item3_pp8yfh.png" alt="Work_2"/>
+                    <div>
+                    <ProjectSkills title="HTML, CSS, Bootstrap, Javascript, ExpressJs, NodeJs, MongoDB">
+                        <img src="https://res.cloudinary.com/dylut4r4t/image/upload/v1611913718/portfolio/Portfolio_item3_pp8yfh.png" alt="Work_2"/>
+                    </ProjectSkills>
+                    </div>
                 </Link>
 
                 <Link to="/work3" className="portfolio__item">
-                    <img src="https://res.cloudinary.com/dylut4r4t/image/upload/v1611913718/portfolio/Portfolio_item2_iy6ut2.png" alt="Work_3"/>
+                    <div>
+                    <ProjectSkills title="HTML, CSS, Javascript, ExpressJs, NodeJs, ReactJs, MongoDB">
+                        <img src="https://res.cloudinary.com/dylut4r4t/image/upload/v1611913718/portfolio/Portfolio_item2_iy6ut2.png" alt="Work_3"/>
+                    </ProjectSkills>
+                    </div>
                 </Link>
 
                 <Link to="/work4" className="portfolio__item">
-                    <img src="https://res.cloudinary.com/dylut4r4t/image/upload/v1611913718/portfolio/Portfolio_item4_islt3x.png" alt="Work_4"/>
+                    <div>
+                    <ProjectSkills title="HTML, CSS, Bootstrap, Javascript, ExpressJs, NodeJs, ReactJs, MongoDB, ReactJs, API's">
+                        <img src="https://res.cloudinary.com/dylut4r4t/image/upload/v1611913718/portfolio/Portfolio_item4_islt3x.png" alt="Work_4"/>
+                    </ProjectSkills>
+                    </div>
                 </Link>
 
             </div>

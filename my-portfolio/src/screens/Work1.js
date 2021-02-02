@@ -35,6 +35,7 @@ function Work1() {
                     <ReactPlayer
                     url="https://youtu.be/8sLGQiBg-dk"
                     className='react-player'
+                    controls={true}
                     playing
                     width='90%'
                     height='90%'

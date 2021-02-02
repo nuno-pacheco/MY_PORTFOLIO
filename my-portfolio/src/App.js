@@ -4,6 +4,7 @@ import HomeScreen from './screens/HomeScreen';
 import AboutMe from './components/AboutMe';
 import AboutMyWork from './components/AboutMyWork';
 import Curriculum from './screens/Curriculum';
+import ScrollToTop from './components/ScrollToTop';
 import Work1 from './screens/Work1';
 import Work2 from './screens/Work2';
 import Work3 from './screens/Work3';
@@ -12,6 +13,7 @@ import Work4 from './screens/Work4';
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop>
       <div>
       <Switch>
       <Route path="/" component={HomeScreen} exact></Route>
@@ -24,6 +26,7 @@ function App() {
       <Route path="/curriculum" component={Curriculum} exact></Route>
       </Switch>
       </div>
+      </ScrollToTop>
     </BrowserRouter>
 
   );

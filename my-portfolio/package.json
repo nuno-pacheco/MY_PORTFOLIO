@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.11.3",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.2",
@@ -20,8 +21,8 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
+    "dev": "watch 'npm run build' src",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -44,5 +45,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://nuno-pacheco.github.io/MY_PORTFOLIO"
+  "homepage": "https://nuno-pacheco.github.io/MY_PORTFOLIO",
+  "devDependencies": {
+    "watch": "^1.0.2"
+  }
 }
