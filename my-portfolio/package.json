@@ -43,7 +43,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://nuno-pacheco.github.io/MY_PORTFOLIO",
+  "homepage": ".",
   "devDependencies": {
     "watch": "^1.0.2"
   }
