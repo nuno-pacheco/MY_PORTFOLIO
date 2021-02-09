@@ -9,6 +9,7 @@ import Work1 from './screens/Work1';
 import Work2 from './screens/Work2';
 import Work3 from './screens/Work3';
 import Work4 from './screens/Work4';
+import Work5 from './screens/Work5';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Route path="/work2" component={Work2} exact></Route>
       <Route path="/work3" component={Work3} exact></Route>
       <Route path="/work4" component={Work4} exact></Route>
+      <Route path="/work5" component={Work5} exact></Route>
       <Route path="/curriculum" component={Curriculum} exact></Route>
       </ScrollToTop>
       </Switch>

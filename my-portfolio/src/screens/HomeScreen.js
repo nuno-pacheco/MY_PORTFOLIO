@@ -176,6 +176,14 @@ function HomeScreen() {
                     </div>
                 </Link>
 
+                <Link to="/work5" className="portfolio__item">
+                    <div>
+                    <ProjectSkills title="HTML, CSS, Javascript, ReactJs, EMAILJS, API's">
+                        <img src="https://res.cloudinary.com/dylut4r4t/image/upload/v1612830061/portfolio/Captura_de_ecra%CC%83_2021-02-08_a%CC%80s_23.55.04_rgjbof.png" alt="Work_5"/>
+                    </ProjectSkills>
+                    </div>
+                </Link>
+
             </div>
         </section>
         <Footer/>
