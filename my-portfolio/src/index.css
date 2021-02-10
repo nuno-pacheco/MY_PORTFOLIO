@@ -140,7 +140,7 @@ header {
 .logo {
     max-width: 100px;
 }
-/*
+
 .nav{
     position: fixed;
     background: var(--clr-dark);
@@ -167,9 +167,9 @@ header {
 }
 
 .nav__link {
-    color: inherit;
-    font-weight: var(--fw-bold);
-    font-size: var(--fs-h2);
+    color: var(--clr-dark);
+    font-weight: var(--fw-reg);
+    font-size: var(--fs-h3);
     text-decoration: none;
 }
 
@@ -233,7 +233,7 @@ header {
 
 .hamburger::before {top: 6px; }
 .hamburger::after {bottom: 6px; }
-*/
+
 /* Intro Section */
 
 .intro {
@@ -524,10 +524,10 @@ header {
     position: relative;
     padding-top: 56.25%; /* 720 / 1280 = 0.5625 */
 
-  }
+}
   
-  .react-player {
+.react-player {
     position: absolute;
     margin-top: 2vh;
     top: 0;
-  }
+}

@@ -33,7 +33,7 @@ function Work5() {
                 <h2 className="section__title section__title--videocv">Video Demo</h2>
                 <div className='player-wrapper'>
                     <ReactPlayer
-                    url="https://youtu.be/6jdYQlOFBho"
+                    url="https://youtu.be/uBxdzSuLm-k"
                     className='react-player'
                     controls={true}
                     playing

@@ -4,7 +4,6 @@ import {Link} from 'react-router-dom';
 
 const Ul = styled.ul`
   list-style: none;
-  text-decoration: none;
   display: flex;
   flex-flow: row nowrap;
   li {
@@ -34,9 +33,11 @@ const Ul = styled.ul`
 const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/aboutme">About Me</Link></li>
-        <li><Link to="/aboutmywork">About my Work</Link></li>
+
+        <li className="nav__link"><Link to="/">Home</Link></li>
+        <li className="nav__link"><Link to="/aboutme">About Me</Link></li>
+        <li className="nav__link"><Link to="/aboutmywork">About my Work</Link></li>
+
     </Ul>
   )
 }
