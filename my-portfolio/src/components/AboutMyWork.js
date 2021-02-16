@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './Navbar';
+import Navbar2 from './Navbar2';
 import Footer from './Footer';
 import {Link} from 'react-router-dom';
 
@@ -8,7 +8,7 @@ import {Link} from 'react-router-dom';
 function AboutMyWork() {
     return (
         <div>
-         <Navbar/>
+         <Navbar2/>
         <section className="my-skills" id="skills">
             <h2 className="section_title section__title--skill">My skills</h2>
             <p className="section__subtitle section__subtitle--skill">Some of my Skills</p>

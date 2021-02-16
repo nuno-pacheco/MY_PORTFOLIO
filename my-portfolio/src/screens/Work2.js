@@ -1,12 +1,12 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
+import Navbar2 from '../components/Navbar2';
 import Footer from '../components/Footer';
 import ReactPlayer from "react-player";
 
 function Work2() {
     return (
         <div>
-        <Navbar/>
+        <Navbar2/>
             <section className="intro">
                 <h1 className="section__title section__title--intro">
                 The<strong>Unum   .</strong>

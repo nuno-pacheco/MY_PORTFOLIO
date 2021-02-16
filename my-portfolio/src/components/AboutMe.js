@@ -1,12 +1,12 @@
 import React from 'react'
-import Navbar from './Navbar';
+import Navbar2 from './Navbar2';
 import Footer from './Footer';
 import {Link} from 'react-router-dom';
 
 function AboutMe() {
     return (
         <div>
-         <Navbar/>
+         <Navbar2/>
         <section className="my-services" id="services">
             <h2 className="section__title section__title--services">What I do</h2>
             <div className="services">
